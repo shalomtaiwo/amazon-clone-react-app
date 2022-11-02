@@ -2,16 +2,20 @@
     width: 100%;
     height: 6.5rem;
     background-color: #131921;
-    padding: 0 2%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 0;
   }
+.menu{
+    padding: 0 2%;
+    height: 60%;
 
+}
   .language {
     position: relative;
     display: inline-block;
+    cursor: pointer;
   }
   
   .language-content {
@@ -53,15 +57,16 @@
     justify-content: center;
   }
   .search{
-    width: 55%;
+    width: 50%;
   }
 .Address{
     display: flex;
     justify-content: center;
-    align-items: flex-end;
-    font-size: 13px;
+    align-items: center;
+    font-size: 12px;
     width: fit-content;
     color: white;
+    cursor: pointer;
 
 }
 .location{
@@ -72,10 +77,44 @@
     color: white;
     display: flex;
     flex-direction: column;
+    cursor: pointer;
 }
-
-
-
+.tp-title{
+    font-size: 12px;
+    margin: 0;
+}
+.bt-title{
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0;
+}
+.bottom-menu{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0 2%;
+    background-color: #232f3e !important;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: fit-content;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav li{
+    padding: 10px;
+    font-size: 14px;
+}
+.side-menu{
+    color: white;
+}
+.side-icon{
+    cursor: pointer;
+}
   ul{
     margin: 0;
   }
@@ -84,11 +123,55 @@
     justify-content: space-between;
     align-items: center;
   }
-//   .header a:hover,
-//   .header a:active,
-//   .header a.active {
-//     color: #cd9042;
-//     padding-bottom: 0.25rem;
-//     border-bottom: 4px solid #cd9042;
-//   }
+  .header .nav a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .header  a:active,
+  .header  a.active {
+    color: #e79427;
+    padding: 0.15rem 0;
+    border-bottom: 1px solid #e79427;
+  }
   
+  .return-orders a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  .cart-Icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    cursor: pointer;
+  }
+  .cart-count{
+    color: #e79427;
+    font-weight: bolder;
+    font-size: 14px;
+    width: fit-content;
+  }
+  .logo-link.active,.logo-link.active:active{
+    border: none !important;
+  }
+
+  @media only screen and (max-width: 1120px) {
+    .amazon-logo{
+        width: 70px;
+    }
+    .cart-count{
+        font-size: 13px;
+    }
+    .tp-title{
+        font-size: 11px;
+    }
+    .bt-title{
+        font-size: 13px;
+    }
+    .nav li{
+        font-size: 13px;
+    }
+  }

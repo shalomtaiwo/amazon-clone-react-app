@@ -15,6 +15,7 @@ const Search = ({
 					<DropdownButton
 						title="All"
 						id="input-group-dropdown-3"
+						variant="secondary"
 					>
 						<Dropdown.Item href="#">Action</Dropdown.Item>
 						<Dropdown.Item href="#">Another action</Dropdown.Item>
@@ -29,6 +30,7 @@ const Search = ({
 					<Button
 						id="button-addon2"
 						type="submit"
+						variant="warning"
 					>
 						<img
 							src={SearchIcon}

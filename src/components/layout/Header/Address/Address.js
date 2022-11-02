@@ -7,7 +7,7 @@ const Address = ({ Locate }) => {
 				<img
 					src={Locate}
 					alt="user_location"
-					width={25}
+					width={17}
 				/>
 			</div>
 			<div className="location">

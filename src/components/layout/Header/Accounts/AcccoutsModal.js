@@ -4,8 +4,8 @@ const AccountsModal = () => {
 	return (
 		<div className="accounts-hover">
 			<div className="account-choice">
-				<span>Hello, Shalom</span>
-				<span>Accounts & Lists</span>
+				<span className="tp-title">Hello, sign in</span>
+				<span className="bt-title">Accounts & Lists</span>
 			</div>
 			<div className="accounts-hover-content">
 				<p>Hello World!</p>

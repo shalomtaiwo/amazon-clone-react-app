@@ -6,8 +6,9 @@ const Cart = ({ CartIcon }) => {
 			<img
 				src={CartIcon}
 				alt="cart_icon"
-				width={40}
+				width={30}
 			/>
+			<span className="cart-count">{51}</span>
 		</div>
 	);
 };
